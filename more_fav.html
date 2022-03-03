@@ -5,17 +5,18 @@
     <meta charset="utf-8">
     <meta name="description" content="My second webpage, with a favicon">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Grace Silvaroli">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- For the favicon on this page -->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_more/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav_more/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_more/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+      <link rel="icon" type="image/png" sizes="32x32" href="./fav_more/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./fav_more/favicon-16x16.png">
+      <link rel="manifest" href="./fav_more/site.webmanifest">
+     <link rel="stylesheet" href="./css/morestyle.css">
 		
 		<!-- To use Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-teal.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-cyan.min.css" />
     <title>My Second Web Page, with a Favicon</title>
   </head>
   <body>
@@ -34,11 +35,48 @@
 			<!-- Container for web page content -->
 	    <main class = "mdl-layout__content" style = "padding-left:20px">
 				
-		    <h3>See another favicon in the browser tab above.</h3>
+		    <h3>Scavenger hunt</h3>
+     <!-- List from MDL -->
+        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Object</th>
+      <th>Location</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Smiley Face</td>
+      <td>Image 1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Donuts</td>
+      <td>Image 2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Macaroons</td>
+      <td>Image 1&2</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+        
 
 				<!-- My div tag with an id -->
-				<div id = "hello-world">This is an example of using &ltdiv&gt and how I escape the angle brackets in my code so I can write them to the screen:)</div>
+				<div id = "hunt">Try finding as many objects as you can!</div>
 				<br>
+        <!-- Images -->
+        <img src="./images/smiley-face.jpeg" alt="face"
+style="width:340px;height:300px;">
+        <img src="./images/donuts.jpeg" alt="donut"
+style="width:340px;height:300px;">
+        <img src="./images/macaroons.jpeg" alt="macaroon"
+style="width:340px;height:300px;">
+        
+        <!-- Link to first page -->
 		    <p>
 		      Here is the link to my <a href="./index.html">first favicon</a> page.
 		    </p>
